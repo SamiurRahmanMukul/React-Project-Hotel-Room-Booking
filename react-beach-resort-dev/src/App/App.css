@@ -251,6 +251,7 @@ h6 {
   margin-bottom: 1.5rem;
 }
 .services h6 {
+  text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
 .services p {
@@ -434,7 +435,7 @@ h6 {
   }
 }
 /* end of single room*/
-/* roomlist */
+/* roomList */
 .roomslist {
   padding: 5rem 0;
 }
@@ -458,8 +459,8 @@ h6 {
     max-width: 1170px;
   }
 }
-/* end of roomlist */
-/*  rooms fitler*/
+/* end of roomList */
+/* rooms filter */
 .filter-container {
   padding: 5rem 0;
 }
@@ -510,5 +511,4 @@ h6 {
     max-width: 1170px;
   }
 }
-
 /* end of rooms filter */
