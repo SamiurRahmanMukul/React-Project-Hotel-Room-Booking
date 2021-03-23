@@ -512,3 +512,28 @@ h6 {
   }
 }
 /* end of rooms filter */
+
+/* footer style */
+.footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #222;
+}
+.footer h2,
+p {
+  color: white;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: red;
+  text-decoration: underline;
+  transition: var(--mainTransition);
+  -webkit-transition: var(--mainTransition);
+  -moz-transition: var(--mainTransition);
+  -ms-transition: var(--mainTransition);
+  -o-transition: var(--mainTransition);
+}

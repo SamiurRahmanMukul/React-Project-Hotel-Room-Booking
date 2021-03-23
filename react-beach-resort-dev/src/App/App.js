@@ -11,6 +11,7 @@ import Error from "../Pages/Error";
 
 // import components
 import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route component={Error} />
       </Switch>
+      <Footer />
     </>
   );
 }
