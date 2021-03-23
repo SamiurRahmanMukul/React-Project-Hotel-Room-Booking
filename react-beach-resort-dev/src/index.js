@@ -7,12 +7,15 @@ import "./index.css";
 // import react-router-dom
 import { BrowserRouter as Router } from "react-router-dom";
 
+// import context
+import { RoomProvider } from "./Context/Context";
+
 ReactDOM.render(
-  <React.StrictMode>
+  <RoomProvider>
     <Router>
       <App />
     </Router>
-  </React.StrictMode>,
+  </RoomProvider>,
   document.getElementById("root")
 );
 
