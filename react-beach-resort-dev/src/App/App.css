@@ -159,7 +159,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("../assets/img/jpeg/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("../assets/img/jpeg/defaultBcg2.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,6 +257,7 @@ h6 {
 .services p {
   width: 80%;
   margin: 0 auto;
+  color: var(--mainBlack);
 }
 @media screen and (min-width: 992px) {
   .services-center {
@@ -352,7 +353,7 @@ h6 {
   transform: translate(-50%, -50%) scale(1);
 }
 .room-info {
-  background: var(--darkGrey);
+  background: var(--mainBlack);
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
@@ -392,6 +393,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 .desc p {
+  color: #222222;
   line-height: 1.5;
 }
 .info h3,

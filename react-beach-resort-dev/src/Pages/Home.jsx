@@ -1,13 +1,11 @@
 import React from "react";
-
 // import react-router-dom
 import { Link } from "react-router-dom";
-
+import Banner from "../Components/Banner/Banner";
+import FeaturedRooms from "../Components/FeaturedRooms/FeaturedRooms";
 // imports components
 import Hero from "../Components/Hero/Hero";
-import Banner from "../Components/Banner/Banner";
 import Services from "../Components/Services/Services";
-import FeaturedRooms from "../Components/FeaturedRooms/FeaturedRooms";
 
 function Home() {
   return (
