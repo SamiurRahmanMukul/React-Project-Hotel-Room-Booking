@@ -2,7 +2,7 @@
 
 ### 🔰 Live Preview Projects:
 
-- Complete "Hotel Room Book" Project - [Click To Live Preview][beach-resort]
+- Complete "Beach Resort | Hotel Room Book" Project - [Click To Live Preview][beach-resort]
 
 <br />
 
@@ -10,4 +10,4 @@
 
 <!-- project link -->
 
-[beach-resort]: https://naughty-northcutt-4a91de.netlify.app/
+[beach-resort]: https://mukul-breach-resort-project.netlify.app/
